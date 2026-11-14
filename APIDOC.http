@@ -1,0 +1,39 @@
+#api call for addition
+###
+POST http://127.0.0.1:8000/add/
+Content-Type: application/json
+
+{
+    "num1":100,
+    "num2":200
+}
+
+#api call for subtraction
+###
+POST http://127.0.0.1:8000/sub/
+Content-Type: application/json
+
+{
+    "num1":300,
+    "num2":100
+}
+
+#api call for multipliaction
+###
+POST http://127.0.0.1:8000/multi/
+Content-Type: application/json
+
+{
+    "num1":30,
+    "num2":2
+}
+
+#api call for division
+###
+POST http://127.0.0.1:8000/div/
+Content-Type: application/json
+
+{
+    "num1":30,
+    "num2":2
+}
